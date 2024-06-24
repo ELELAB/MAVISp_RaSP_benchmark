@@ -39,7 +39,7 @@ R packages installed. We performed our calculations with the following setup:
   - forcats 1.0.0
   - ggnewscale 0.4.10
 
-we also include a Conda environment definition file in the database, which
+we also include a Conda environment definition file in the repository, which
 defines the full environment in which we ran this code.
 
 ### Steps to reproduce
@@ -50,6 +50,7 @@ using the terminal, with the `git` software installed
 1. Create a local copy of this repository and enter its directory:
 ```
 git clone https://github.com/ELELAB/MAVISp_RaSP_benchmark.git
+cd MAVISp_RaSP_benchmark
 ```
 
 2. (Optional) you can build a Conda environment using our provided definition,
